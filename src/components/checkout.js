@@ -77,7 +77,7 @@ const Checkout = class extends React.Component {
           })
           .catch(error => {
             console.error("Error:", error)
-            this.setState({ paymentMessage: "Payment Failed" })
+            this.setState({ paymentMessage: "Betalning misslyckades" })
           })
       },
     })
