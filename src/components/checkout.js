@@ -72,7 +72,7 @@ const Checkout = class extends React.Component {
           .then(res => {
             console.log("Transaction processed successfully")
             this.resetButton()
-            this.setState({ paymentMessage: "Payment Successful!" })
+            this.setState({ paymentMessage: "Betalning lyckades!" })
             return res
           })
           .catch(error => {
